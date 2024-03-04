@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --primary-color: #000042;
+    --secondary-color: #10879b;
+    --accent1-color: #cccccc;
+    --accent2-color: #ee6c4d;
+
+    --heading-font: Bellez, sans-serif;
+    --paragraph-font: "Open Sans", sans-serif;
+
+    --nav-background-color: #cccccc;
+    --nav-link-color: #000042;
+    --nav-hover-link-color: #ee6c4d;
+    --nav-hover-background-color: #000042;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header {
+    padding:20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    padding: 1rem;
+}
+
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
