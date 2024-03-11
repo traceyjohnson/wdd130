@@ -13,7 +13,7 @@
     --nav-link-color: #000042;
     --nav-hover-link-color: #ee6c4d;
     --nav-hover-background-color: #000042;
-}
+
 
 body {
     max-width: 1200px;
@@ -29,7 +29,7 @@ p {
 }
 
 footer {
-    color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 footer a {
@@ -48,12 +48,23 @@ footer a {
 
 h1 {
     position: absolute;
+    background-color: #00000060;
+    color:#ee6c4d;
+    top: 50px;
+    left:400px;
+    padding: 20px;
 }
 
 article {
     position: absolute;
+    top:150px;
+    padding: 20px;
+    background-color: #10879b70;
+    color: white;
+    margin: 20px;
 }
 
 .hero article img {
     float: right;
+    width: 144px;
 }
