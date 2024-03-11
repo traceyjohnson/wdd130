@@ -13,7 +13,7 @@
     --nav-link-color: #000042;
     --nav-hover-link-color: #ee6c4d;
     --nav-hover-background-color: #000042;
-
+}
 
 body {
     max-width: 1200px;
@@ -38,6 +38,7 @@ footer a {
 
 .hero {
     position: relative;
+    width: 100%;
 }
 
 .hero img {
@@ -48,11 +49,11 @@ footer a {
 
 h1 {
     position: absolute;
-    background-color: #00000060;
-    color:#ee6c4d;
+    background-color: #cccccc50;
+    width: 100%;
     top: 50px;
-    left:400px;
-    padding: 20px;
+    text-align: center;
+    padding: 20px 0 20px 0;
 }
 
 article {
