@@ -9,13 +9,13 @@ nav {
     padding: 10px;
 }
 
-nav a{
+nav a {
     color:white;
     display:block;
     padding:20px;
 }
 
-h1{
+h1 {
     color:steelblue;
 }
 
@@ -23,7 +23,7 @@ main {
     max-width: 840px;
 }
 
-main img{
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -32,11 +32,11 @@ main img{
     float: right;
 }
 
-p{
+p {
     padding:10px;
 }
 
-aside{
+aside {
     width:400px;
     margin: 10px;
     padding: 5px;
@@ -56,7 +56,7 @@ aside h2 {
     left: 50px;
 }
 
-p{
+p {
    padding: 0; 
 }
 
