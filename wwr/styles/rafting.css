@@ -8,35 +8,46 @@
     --heading-font: Bellez, sans-serif;
     --paragraph-font: "Open Sans", sans-serif;
     --nav-background-color: #cccccc;
-    --nav-link-color: #000042;
+    --nav-link-color: #10879b;
     --nav-hover-link-color: #ee6c4d;
     --nav-hover-background-color: #000042;
 }
 
 body {
     max-width: 1200px;
+    margin: 0 auto;
 }
 
 header {
-    display: grid;
-    
+    display:grid;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
-h1, h2, h3, h4, h5 {
+header img {
+    grid-column: 1/2;
+    position: absolute;
+    z-index: 1;
+    width: 250px;
+}
+
+nav {
+    grid-column: 2/3;
+    align-items: center;
+    display:flex;
+    justify-content: space-evenly;
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    font-weight:bold;
+    font-size: 1.2em;
 }
 
-p {
-    font-family: var(--paragraph-font);
-}
-
-footer {
-    color: var(--accent2-color);
-}
-
-footer a {
+nav a {
     text-decoration: none;
+    color: var( --nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
 }
 
 .hero {
@@ -48,15 +59,6 @@ footer a {
     display: block;
     width: 100%;
     height: auto;
-}
-
-h1 {
-    position: absolute;
-    background-color: #cccccc50;
-    width: 100%;
-    top: 50px;
-    text-align: center;
-    padding: 20px 0 20px 0;
 }
 
 article {
@@ -72,3 +74,63 @@ article {
     float: right;
     width: 144px;
 }
+
+#adventures {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap:20px;
+}
+
+#adventures img {
+    width: 100%;
+}
+
+footer {
+    border-top: solid #10879b 2px;
+    margin-top: 30px;
+    color: var(--accent2-color);
+    display: grid;
+    grid-template-columns: minmax(800px, 1fr) 3fr;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.sociallinks {
+    display:flex;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: .7em;
+    font-style:oblique;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    background-color: #cccccc50;
+    width: 100%;
+    top: 50px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+p {
+    font-family: var(--paragraph-font);
+}
+
+
+
+
+
+
